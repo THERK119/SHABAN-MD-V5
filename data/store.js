@@ -107,7 +107,7 @@ const saveGroupMetadata = async (jid, client) => {
 
   const participants = groupMetadata.participants.map((participant) => ({
     jid,
-    participantId: participant.id,
+    participantId: particiدددددددpant.id,
     admin: participant.admin,
   }));
   await writeJSON(`${jid}_participants.json`, participants);
